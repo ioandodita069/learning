@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>My first try</head>
+
 <body>
 
-<img src="pic_trulli.jpg" alt="Trulli" width="700" height="333">
+  <img src="pic_trulli.jpg" alt="Trulli" width="700" height="333">
 
 
-<h2>Image Size</h2>
+  <h2>Image Size</h2>
 
-<p>Here we use the style attribute to specify the width and height of an image:</p>
+  <p>Here we use the style attribute to specify the width and height of an image:</p>
 
-<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
-
-
-<h2>Image Size</h2>
-
-<p>Here we specify the width and height of an image with the width and height attributes:</p>
-
-<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-
-<style>
-/* This style sets the width of all images to 100%: */
-img {
-  width: 100%;
-}
-</style>
-
-<h2>Width/Height Attributes or Style?</h2>
-
-<p>The first image uses the width attribute (set to 128 pixels), but the style in the head section overrides it, and sets the width to 100%.</p>
-
-<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
-
-<p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style in the head section:</p>
-
-<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+  <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
 
 
+  <h2>Image Size</h2>
 
-<h2>Animated images</h2>
+  <p>Here we specify the width and height of an image with the width and height attributes:</p>
 
-<p>HTML allows moving images:</p>
+  <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
 
-<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">
+  <style>
+    /* This style sets the width of all images to 100%: */
+    img {
+      width: 100%;
+    }
+  </style>
 
-<h2>Image Maps</h2>
-<p>Click on the computer to go to a new page and read more about the topic:</p>
+  <h2>Width/Height Attributes or Style?</h2>
 
-<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+  <p>The first image uses the width attribute (set to 128 pixels), but the style in the head section overrides it, and
+    sets the width to 100%.</p>
 
-<map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-</map>
+  <img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+  <p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style
+    in the head section:</p>
+
+  <img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+
+
+  <h2>Animated images</h2>
+
+  <p>HTML allows moving images:</p>
+
+  <img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">
+
+  <h2>Image Maps</h2>
+  <p>Click on the computer to go to a new page and read more about the topic:</p>
+
+  <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+  <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  </map>
 
 
 </body>
+
 </html>
