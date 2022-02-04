@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            overflow: auto;
+        }
+
+        body {
+            font-family: Verdana;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+        }
+
+        .menuitem {
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #6b0e0e;
+        }
+
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+
+        .right {
+            background-color: rgba(255, 197, 121, 0.747);
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+        }
+
+        @media only screen and (max-width:800px) {
+
+            /* For tablets: */
+            .main {
+                width: 80%;
+                padding: 0;
+            }
+
+            .right {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+
+            /*for mobile phones:*/
+            .menu,
+            .main,
+            .right {
+                width: 100%;
+            }
+
+            div {
+                background-color: #d17171;
+                padding: 15px;
+            }
+
+            div {
+                overflow: auto;
+            }
+
+            div {
+                background-color: #dfc1c1;
+                text-align: center;
+                padding: 10px;
+                margin-top: 7px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Greece</h1>
+        <h3>The most loved country by the tourists</h3>
+    </div>
+
+    <div>
+        <div class="menu">
+            <div class="menuitem">The Walk</div>
+            <div class="menuitem">Transport</div>
+            <div class="menuitem">History</div>
+            <div class="menuitem">Gallery</div>
+        </div>
+
+        <div class="main">
+            <h2>The Walk</h2>
+            <p>The walk on the Greece island will take you about two and a half hours, but the view it is goreous.</p>
+            <img src="../img/greece.jpg" style="width:100%">
+        </div>
+
+        <picture>
+            <source srcset="../img/img2.jpg" media="(max-width:600px)" style=width:100%>
+            <source srcset="../img/img1.jpg" media="(max-widht:900px)" style=width:100%>
+            <source srcset="img1.jpg">
+            <img src="../img/img1.jpg" alt="Buildings">
+        </picture>
+
+        <div class="right">
+            <h2>What?</h2>
+            <p>Greece islands.</p>
+            <h2>Where?</h2>
+            <p>On the northwest cost of the Greece islands, north of the city Athena.</p>
+            <h2>Price?</h2>
+            <p>The Walk is free!</p>
+        </div>
+    </div>
+
+
+    <div>This is my try
+        to make a nice looking homework.</div>
+
+</body>
+
+</html>
