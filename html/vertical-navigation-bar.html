@@ -1,66 +1,87 @@
 <html>
+
 <head>
-<style>
-    p::first-letter{
-    color: brown;
-    font-size: xx-large;
-}
-body {
-  margin: 0;
-}
+  <style>
+    p::first-letter {
+      color: brown;
+      font-size: xx-large;
+    }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
+    body {
+      margin: 0;
+    }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-li a:hover{
-    background-color: rgb(126, 11, 34);
-    color: #f1f1f1e0;
-}
-div{
-    margin-left: 25%;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
 
-    padding: 1px 16px;
-    height: 1000px;
-}
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
 
+    li a:hover {
+      background-color: rgb(126, 11, 34);
+      color: #f1f1f1e0;
+    }
 
+    div {
+      margin-left: 25%;
 
-</style>
+      padding: 1px 16px;
+      height: 1000px;
+    }
+  </style>
 </head>
+
 <body>
 
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>	
-</ul>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
 
-<div>
-  <h2>Fixed Full-height Side Nav</h2>
-  <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
-  <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
-  <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
-  <p>In the source element of the reference, provide at minimum the title of the newspaper in italic title case.If the newspaper article is from an online newspaper that has a URL<br> that will resolve for readers (as in the Carey example), include the URL of the article at the end of the reference. If volume, issue, and/or page numbers for the article are missing, omit these elements from the reference.If you used a print version of the newspaper article (as in the Harlan example),provide the page or pages<br> of the article after the newspaper title. Do not include the abbreviations “p.” or “pp.” before the page(s).If the newspaper article is from an academic research database, provide the title of the newspaper and any volume, issue, and/or page numbers that are available for the article. Do not include database information in the reference. <br>If the article does not have volume, issue, or page numbers available, the reference in this case ends with the title of the newspaper (as in the Stobbe example).<br>If the article is from a news website (e.g., CNN, HuffPost)—one that does not have an associated daily or weekly newspaper—use the format for a webpage on a news website instead.<br>
-</p>
-  <p>Credit the person who left the comment as the author using the format that appears with the comment (i.e., a real name or a username).<br> The example shows a username.Provide the comment title or up to the ﬁrst 20 words of the comment; then write “Comment on the article” and the title of the article on which the comment appeared (in quotation marks and sentence case, enclosed within square brackets).Link to the comment itself if possible. Either the full URL or a short URL is acceptable. The example shows a URL that the writer has shortened with the bitly URL shortening<br> service.If the comment belongs to an article from a news website (e.g., CNN, HuffPost)—one that does not have an associated daily or weekly newspaper—use the format for a comment on a webpage on a news website..</p>
-  
-</div>
+  <div>
+    <h2>Fixed Full-height Side Nav</h2>
+    <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width.
+      If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+    <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long
+      (for example if it has over 50 links inside of it).</p>
+    <p>In the source element of the reference, provide at minimum the title of the newspaper in italic title case.If the
+      newspaper article is from an online newspaper that has a URL<br> that will resolve for readers (as in the Carey
+      example), include the URL of the article at the end of the reference. If volume, issue, and/or page numbers for
+      the article are missing, omit these elements from the reference.If you used a print version of the newspaper
+      article (as in the Harlan example),provide the page or pages<br> of the article after the newspaper title. Do not
+      include the abbreviations “p.” or “pp.” before the page(s).If the newspaper article is from an academic research
+      database, provide the title of the newspaper and any volume, issue, and/or page numbers that are available for the
+      article. Do not include database information in the reference. <br>If the article does not have volume, issue, or
+      page numbers available, the reference in this case ends with the title of the newspaper (as in the Stobbe
+      example).<br>If the article is from a news website (e.g., CNN, HuffPost)—one that does not have an associated
+      daily or weekly newspaper—use the format for a webpage on a news website instead.<br>
+    </p>
+    <p>Credit the person who left the comment as the author using the format that appears with the comment (i.e., a real
+      name or a username).<br> The example shows a username.Provide the comment title or up to the ﬁrst 20 words of the
+      comment; then write “Comment on the article” and the title of the article on which the comment appeared (in
+      quotation marks and sentence case, enclosed within square brackets).Link to the comment itself if possible. Either
+      the full URL or a short URL is acceptable. The example shows a URL that the writer has shortened with the bitly
+      URL shortening<br> service.If the comment belongs to an article from a news website (e.g., CNN, HuffPost)—one that
+      does not have an associated daily or weekly newspaper—use the format for a comment on a webpage on a news
+      website..</p>
+
+  </div>
 
 </body>
-</html>
 
+</html>
