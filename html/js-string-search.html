@@ -1,0 +1,17 @@
+<html>
+
+<body>
+    <h3>Iti selecteaza din text caracterele sau cuvintele pe care le vrei</h3>
+    <p id="demo"></p>
+
+    <script>
+        let text = "Intr-o dimineata era zi si intr-o seara nu mai era zi"
+
+        document.getElementById("demo").innerHTML = text.match(/a/g);
+
+        // daca activezi a 2 functie o sa-ti dea true sau false in functie de cuvant
+        // document.getElementById("demo").innerHTML = text.includes("zi");    
+    </script>
+</body>
+
+</html>
