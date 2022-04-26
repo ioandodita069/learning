@@ -4,14 +4,14 @@
     <p id="demo"></p>
     <script>
         var firstValue = [1, 5, 7, 4, 98, 8]
-        var secondValue = firstValue.map(raiseToPower);
+        var secondValue = firstValue.map(tripled);
         // var selection=firstValue.filter(biggerThan);
 
         document.getElementById("demo").innerHTML = secondValue;
         // document.getElementById("demo").innerHTML = selection;
 
 
-        function raiseToPower(value, index, array) {
+        function tripled(value, array) {
             return value * 3;
         }
         // function biggerThan(value){
