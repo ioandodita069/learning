@@ -1,0 +1,42 @@
+<html>
+
+<body>
+    <!-- if you activate the second function,you will find the lowest number -->
+
+    <h2>JavaScript Array Sort</h2>
+    <p>The highest number is <span id="demo"></span>.</p>
+    <!-- <p>The lowest number is <span id="demo"></span>.</p> -->
+
+
+    <script>
+        var points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("demo").innerHTML = highestNumber(points);
+
+        // document.getElementById("demo").innerHTML = lowestNumber(points);
+
+        function highestNumber(arr) {
+            let len = arr.length;
+            let max = -Infinity;
+            while (len--) {
+                if (arr[len] > max) {
+                    max = arr[len];
+                }
+            }
+            return max;
+        }
+
+        // function lowestNumber(arr) {
+        //     let len = arr.length;
+        //     let min = Infinity;
+        //     while (len--) {
+        //         if (arr[len] < min) {
+        //             min = arr[len];
+        //         }
+        //     }
+        //     return min;
+        // }
+    </script>
+
+</body>
+
+</html>
