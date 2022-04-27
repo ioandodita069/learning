@@ -4,6 +4,6 @@ numbers.add("8");
 
 let text = "";
 for (var x of numbers.values()) {
-    text += x + "<br";
+    text += x + "<br>";
 }
 console.log(text)
