@@ -1,0 +1,97 @@
+<html>
+<style>
+    input.srcbar[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        transition: width 2s ease-in-out;
+    }
+
+    input[type=text]:focus {
+        width: 50%;
+    }
+
+
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px whitesmoke;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4d260dec;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #976508;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <h3>WELCOME</h3>
+
+    <form>
+        <input class="srcbar" type="text" name="search" placeholder="Search..">
+
+    </form>
+
+
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <option value="ioan"></option>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <option value="dodita"></option>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="romania">Romania</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
+<div></div>
+<div></div>
+
+<footer>Thank you for your subscription!</footer>

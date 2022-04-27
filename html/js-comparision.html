@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <h3>Are you old enough to drink?</h3>
+    <input id="age" value="18">
+    <button onclick="oldEnough()">Try it</button>
+    <p id="demo"></p>
+    <script>
+        function oldEnough() {
+            let age = document.getElementById("age").value;
+            let ripe = (age < 18) ? "Too young" : "Old enough";
+            document.getElementById("demo").innerHTML = ripe + " to drink"
+        }
+
+    </script>
+
+</body>
+
+</html>
