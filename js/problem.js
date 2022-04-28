@@ -1,4 +1,4 @@
-test("Ana are ce nu are Maria");
+test("Ana are ce nu are Marta");
 function test(e) {
     var words = e
         .toLowerCase()
