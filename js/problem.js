@@ -1,5 +1,5 @@
-test("Ana are ce nu are Marta");
-function test(e) {
+sentence("Ana are ce nu are Maria");
+function sentence(e) {
     var words = e
         .toLowerCase()
         .split("")
