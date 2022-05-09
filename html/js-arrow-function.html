@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <button id="btn">Click</button>
+    <p id="demo"></p>
+    <script>
+        var show;
+        var load;
+        var click;
+
+        show = () => {
+            document.getElementById("demo").innerHTML += this;
+        }
+        window.addEventListener("load", show);
+        document.getElementById("btn").addEventListener("click", show);
+
+    </script>
+</body>
+
+</html>
