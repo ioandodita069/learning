@@ -8,6 +8,6 @@ const myFarm = {
     }
 }
 // console.log(myFarm.animals.animal2);
-// console.log(myFarm.animals["animal1"]);
-console.log(myFarm["animals"]["animal3"]);
+console.log(myFarm.animals["animal1"]);
+// console.log(myFarm["animals"]["animal3"]);
 // you can use either of these 
