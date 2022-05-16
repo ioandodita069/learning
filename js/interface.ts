@@ -9,6 +9,6 @@ interface RenovatedBuilding extends Building {
 const renovatedBuiding: RenovatedBuilding = {
     height: 40,
     with: 130,
-    color: "grey"
+    color: "white"
 };
 console.log(renovatedBuiding)

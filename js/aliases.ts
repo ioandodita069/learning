@@ -10,7 +10,7 @@ type Car = {
 
 const carYear: CarYear = 2020
 const carType: CarType = "Volkswagen"
-const carModel: CarModel = "Jetta"
+const carModel: CarModel = "Arteon"
 const car: Car = {
 
     year: carYear,
