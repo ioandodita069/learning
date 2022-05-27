@@ -1,3 +1,9 @@
+
+console.log("Ioan".constructor + "<br>" +
+    (9.99).constructor + "<br>" +
+    false.constructor + "<br>" +
+    [1, , 4, 4].constructor + "<br>
+           
 console.log("ioan".constructor + "<br>" +
     (9.99).constructor + "<br>" +
     false.constructor + "<br>" +
