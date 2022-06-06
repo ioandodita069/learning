@@ -1,21 +1,22 @@
-const arr = [-3, -2, 1, 0, 1, 2, 3];
-let left = 0;
+arr = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+let left ;
 let right = arr.length - 1;
-let mid;
-function binarySearch(arr, target) {
-    while (left <= right) {
-        mid = (left + right) / 2
+let mid = left + right / 2;
+function binarySearch(arr, key) {
+
+    if (key < arr[mid]) {
+        right = mid - 1
     }
-    if (arr[mid] === target) {
-        return mid;
+    else if (key > arr[mid]) {
+        right = mid + 1
     }
-    else if (target < arr[mid]) {
-        right = mid - 1;
+    else if (key === arr[mid]) {
+        return mid
     }
     else {
-        left = mid + 1;
+        return false
     }
-    return none;
+
 }
-let result = binarySearch(arr, 0);
+let result = binarySearch(arr, 5);
 console.log(result)
