@@ -5,9 +5,7 @@ function bubbleSort(array) {
                 array[j], array[j + 1] = array[j + 1], array[j];
 
             }
-            if (array[j + 1] > array[j]) {
-                return array
-            }
+
         }
     }
 
